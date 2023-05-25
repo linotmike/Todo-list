@@ -39,9 +39,11 @@
       <ul  >
        
         {items.map((item) => {
-          return <li className="output" key={item.id}>{item.value} <button className="btn btn-primary" onClick={()=> deleteItem(item.id)} >
+          return <li className="output" key={item.id}>{item.value} <button style={{gap: '10px'}} className="btn btn-primary" onClick={()=> deleteItem(item.id)} >
            delete </button > 
+           
            <button className="btn btn-primary">edit</button>
+           <hr/>
             </li>;
             
         })}

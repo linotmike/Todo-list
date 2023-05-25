@@ -11,5 +11,12 @@ h1{
 .output{
   color: purple;
   list-style-type: none;
-  gap:10%;
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+  gap: 10px; */
+
+  
 }
